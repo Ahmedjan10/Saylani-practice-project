@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Play:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #2e3038;
+}
+li,a,button{
+    font-family: "Play",sans-serif;
+    font-weight: 400;
+    color: rgb(239, 240, 240);
+    text-decoration: none;
+
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+.nav-links{
+  list-style: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 22px;
+}
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover{
+    background-color: rgb(110, 129, 136);
+    /* transform: scale(); */
+    /* transition: 1s; */
+}
+.logo{
+    cursor: pointer;
+    height:73px;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgb(52, 83, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 17px;
+  
+}
+button:hover{
+    background-color:rgb(80, 129, 8) ;
+    /* transform:scale(2); */
+    /* transition: 2s;  */
+
+}
+
